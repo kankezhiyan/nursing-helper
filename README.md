@@ -1,2 +1,5 @@
-# calculator-of-margin
-一个计算余量的网页项目，可以计算经历多个变化速率后的余量，包括但不限于气体、液体等||A web project to calculate margin, you can calculate the margin after experiencing multiple rates of change, including but not limited to gas, liquid, etc  
+# nursing-helper || 医护助手
+一个帮助护士快速计算输液需求的网页项目，也可拓展用以解决类似问题。
+
+A web project that helps nurses quickly calculate their infusion needs can also be expanded to solve similar problems.
+
