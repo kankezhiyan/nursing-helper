@@ -39,9 +39,9 @@ timeCount.addEventListener('click', () => {
 	<div class="timebar"><span class="text-span speed">速率${i + 1}</span><input id="speed-${i + 1}" placeholder=">0"><span class="text-span">ml/h</span><span class="text-span speed">用量</span><input id="amount-${i + 1}" placeholder=">0"></div>`
             }
             box.innerHTML += `<div class="timebar"><span class="text-span speed">速率${num}</span><input id="speed-${num}" placeholder=">0"><span class="text-span">ml/h</span></div>`
-        }
-        choose.style.display = "none"
-        timeCounting.style.display = "inline"
+            choose.style.display = "none"
+            timeCounting.style.display = "inline"
+	}
     })
 
     timeCounting.addEventListener('click', () => {
@@ -122,9 +122,9 @@ marginCount.addEventListener('click', () => {
 	<div class="timebar"><span class="text-span">时间${i + 1}</span><input id="hour-${i + 1}" placeholder="0"><span class="text-span">时</span><input id="min-${i + 1}" placeholder="0"><span class="text-span">分</span><div><span class="text-span speed">速率</span><input id="speed-${i + 1}" placeholder=">0"><span class="text-span">ml/h</span></div></div>`
             }
             box.innerHTML += `<div class="timebar"><span class="text-span">时间${num}</span><input id="hour-${num}" placeholder="0"><span class="text-span">时</span><input id="min-${num}" placeholder="0"><span class="text-span">分</span></div>`
-        }
-        choose.style.display = "none"
-        marginCounting.style.display = "inline"
+            choose.style.display = "none"
+            marginCounting.style.display = "inline"
+	}
     })
 
     marginCounting.addEventListener('click', () => {
